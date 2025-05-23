@@ -1,14 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>School Portal</title>
+  <meta charset="UTF-8">
+  <title>Student Login</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Welcome to the School Portal</h1>
-    <a href="login.html" class="btn">Login</a>
-    <a href="signup.html" class="btn">Sign Up</a>
-  </div>
+  <header>
+    <h1>My School Portal</h1>
+  </header>
+  <main>
+    <div class="login-card">
+      <h2>Login</h2>
+      <form action="dashboard.html">
+        <label for="matric">Matric Number:</label>
+        <input type="text" id="matric" name="matric" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </main>
 </body>
 </html>
