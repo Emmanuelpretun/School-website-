@@ -1,14 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>School Portal</title>
+  <meta charset="UTF-8">
+  <title>Student Dashboard</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Welcome to the School Portal</h1>
-    <a href="login.html" class="btn">Login</a>
-    <a href="signup.html" class="btn">Sign Up</a>
-  </div>
+  <header>
+    <nav>
+      <h1>Student Dashboard</h1>
+      <ul>
+        <li><a href="index.html">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="card-container">
+
+    <section class="profile-card">
+      <img src="profile.jpg" class="profile-photo" alt="Student">
+      <h2>John Doe</h2>
+      <p><strong>Matric:</strong> 2021012345</p>
+      <p><strong>Department:</strong> Computer Science</p>
+      <p><strong>Level:</strong> 300</p>
+    </section>
+
+    <section class="profile-card">
+      <img src="profile2.jpg" class="profile-photo" alt="Student">
+      <h2>Jane Smith</h2>
+      <p><strong>Matric:</strong> 2021023456</p>
+      <p><strong>Department:</strong> Microbiology</p>
+      <p><strong>Level:</strong> 200</p>
+    </section>
+
+    <!-- Add more profiles as needed -->
+
+  </main>
 </body>
 </html>
